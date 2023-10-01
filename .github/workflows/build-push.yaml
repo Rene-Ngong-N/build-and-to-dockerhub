@@ -6,9 +6,10 @@ on:
       - main
 
 env:
-  IMAGE_NAME: your-image-name
+  IMAGE_NAME: indianlady
   DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
   DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+  DOCKERHUB_REPOSITORY: reng85/build-and-push:latest
 
 jobs:
   build-and-push:
