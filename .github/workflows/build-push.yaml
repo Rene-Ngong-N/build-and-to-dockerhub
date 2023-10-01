@@ -40,7 +40,7 @@ on:
 
 env:
   IMAGE_NAME: bestlady
-  DOCKERHUB_REPOSITORY: reng85/build-and-push:latest
+  DOCKERHUB_REPOSITORY: reng85/build-and-push
 
 jobs:
   build:
