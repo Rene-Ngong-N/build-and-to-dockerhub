@@ -39,8 +39,8 @@ on:
       - main
 
 env:
-  IMAGE_NAME: bestlady
-  DOCKERHUB_REPOSITORY: reng85/build-and-push
+  IMAGE_NAME: latest
+  DOCKERHUB_REPOSITORY: formbah/globaljewelries
 
 jobs:
   build:
